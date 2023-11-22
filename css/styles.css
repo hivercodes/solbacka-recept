@@ -34,9 +34,9 @@ p {
     .btn-custom {
     padding: 1rem 1.5rem; /* Larger padding for bigger buttons */
     font-size: 1.25rem; /* Larger font size */
-    color: #fff; /* Text color */
-    background-color: #007bff; /* Replace with your preferred color */
-    border-color: #007bff; /* Replace with your preferred color */
+    background-color: #343a40; /* Match navbar color */
+    border-color: #343a40; /* Match navbar color */
+    color: #ffffff; /* White text for contrast */
 }
 
 /* Ensures that the custom color remains on hover/focus */
@@ -45,3 +45,6 @@ p {
     background-color: #0056b3; /* Darker shade for interaction */
     border-color: #0056b3; }
 
+    body {
+        background-color: #e0e0e0; /* This is a very light gray, softer than white */
+    }
